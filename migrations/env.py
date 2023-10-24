@@ -4,6 +4,11 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
+
+from database.models.role import Role
+from database.models.comment import Comment
+from database.models.thread import Thread
+from database.models.user import User
 import settings
 
 # this is the Alembic Config object, which provides
