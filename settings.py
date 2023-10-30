@@ -23,4 +23,4 @@ COOKIE_LIFE_TIME = env('COOKIE_LIFE_TIME')
 SECRET_KEY = env('SECRET_KEY')
 
 DATABASE_URL = f'postgresql+asyncpg://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
-Base: DeclarativeMeta = declarative_base()
+
